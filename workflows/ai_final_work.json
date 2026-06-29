@@ -1,0 +1,44 @@
+{
+  "12": {
+    "inputs": {
+      "image": "b2bdcabfdfb3000b5ab219e1375d313a3ed0c40948327eb4c1619175940efcda.jpg"
+    },
+    "class_type": "LoadImage",
+    "_meta": {
+      "title": "이미지 로드"
+    }
+  },
+  "14": {
+    "inputs": {
+      "filename_prefix": "video/ComfyUI",
+      "format": "auto",
+      "codec": "auto",
+      "video": [
+        "22",
+        0
+      ]
+    },
+    "class_type": "SaveVideo",
+    "_meta": {
+      "title": "비디오 저장"
+    }
+  },
+  "22": {
+    "inputs": {
+      "model": "grok-imagine-video",
+      "prompt": "[Dynamic Transition: High Contrast and Total Dissolution]\nThe video immediately starts with the entire environment drastically darkening into a deep, low-key night-like dawn, changing from the initial bright light into heavy dim shadows and intense indigo tones to emphasize the subject. \n\nA tiny vintage 2D cartoon style Tinker Bell fairy, precisely drawn with short bright golden hair and a pointed green hat, hovers in the air. This glowing classic hand-drawn cell animated fairy is the main subject and sharply contrasts against the dark background. \n\nFrom a distance, she waves her wooden magic wand. Instantly, intense swirling trails of glowing golden pixie dust, brilliant magical glitter particles, and a luminescent flash cover the recognized cluttered waste and scattered trash. \n\nWithout any physical contact, the detected trash completely dissolves, vanishes, and disappears into absolute nothingness, leaving only a perfectly clean, empty space. The objects are completely erased and gone from the scene, replaced by the sparkling golden glitter trail. \n\nMystical glowing glitter dust, absolute object disappearance, complete erasure effect, heavy shadows, low-key dark lighting, 4k, 24fps.",
+      "resolution": "720p",
+      "aspect_ratio": "auto",
+      "duration": 6,
+      "seed": 551697611,
+      "image": [
+        "12",
+        0
+      ]
+    },
+    "class_type": "GrokVideoNode",
+    "_meta": {
+      "title": "Grok 비디오"
+    }
+  }
+}
